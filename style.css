@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: blueviolet;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 4vh 2vw;
+}
+
+div label{
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 2vh 2vw;
+}
+
+div input {
+    border-radius: 8px;
+    border: 1px solid blueviolet ;
+    background-color: rgba(137, 43, 226, 0.395);
+    height: 3vh;
+    margin: 2vh 2vw;
+    padding: 0.5vh 0.5vw;
+}
+
+div button, button {
+    margin: 0.5vh 2vw;
+    padding: 0.5vh 0.5vw;
+    border-radius: 8px;
+    border: 1px solid blueviolet ;
+}
+
+    div button:hover, button:hover{
+        background-color: rgba(137, 43, 226, 0.395);
+    }
+
+.mensaje{
+    margin: 2vh 2vw;
+    line-height: 1.5em;
+}
