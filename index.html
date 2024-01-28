@@ -5,21 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <title>Carrito de compras</title>
 </head>
 
 <body>
     <h1>Carrito de Compras</h1>
 
-    <div>
-        <label for="nombreProducto">Nombre del Producto:</label> <br>
-        <input type="text" id="nombreProducto"> <br>
-        <button id="agregarCarritoBtn">Agregar al Carrito</button> <br>
+    <div id="productos">
+      <!-- Aquí se mostrarán los productos -->
     </div>
+    
+    <div id="carrito">
+      <h2>Carrito</h2>
+      <ul id="listaCarrito">
+        <!-- Aquí se mostrarán los productos en el carrito -->
+      </ul>
+      <p>Total: $<span id="totalCarrito">0.00</span></p>
+      <button id="btnComprar">Comprar</button>
+    </div>
+    
 
-    <button id="mostrarCarritoBtn">Mostrar Carrito</button>
-    <div class="mensaje" id="mensaje"></div>
 
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <!-- java script -->
     <script src="./main.js"></script>
